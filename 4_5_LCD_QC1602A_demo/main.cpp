@@ -14,6 +14,6 @@ int main()
       for(int x = 30; x >= 0; x--){
           lcd.locate(5,1);
           lcd.printf("%2D", x);
-          wait(1);
+          wait(0.5);
       }
 }
