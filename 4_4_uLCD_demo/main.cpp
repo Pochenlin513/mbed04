@@ -16,6 +16,7 @@ int main()
     uLCD.cls();
     uLCD.color(BLUE);
     uLCD.printf("\n106061227\n");
+    wait(0.5);
     uLCD.color(GREEN);
     for (int i=30; i>=0; --i) {
         uLCD.locate(1,2);
