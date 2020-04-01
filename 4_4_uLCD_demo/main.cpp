@@ -9,10 +9,13 @@ int main()
 {
     // basic printf demo = 16 by 18 characters on screen
     uLCD.printf("\nHello uLCD World\n"); //Default Green on black text
+    wait(1);
     uLCD.printf("\n  Starting Demo...");
-    uLCD.text_width(4); //4X size text
-    uLCD.text_height(4);
+    wait(1);
+    uLCD.text_width(10); //10X size text
+    uLCD.text_height(10);
     uLCD.background_color(WHITE);
+    uLCD.textbackground_color(WHITE);
     uLCD.cls();
     uLCD.color(BLUE);
     uLCD.printf("\n106061227\n");
